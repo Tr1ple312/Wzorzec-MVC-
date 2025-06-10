@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}About{% endblock %}
+
+{% block body %}
+
+<h1>About This Learning Project</h1>
+
+<p>
+    This website is a part of an educational project designed to help understand modern web development using Django.
+    It showcases the fundamental architecture of a Django application, including Models, Views, and Templates —
+    following the MVC (Model-View-Controller) pattern.
+</p>
+
+<p>The project serves as a practical introduction to building web applications, covering user authentication,
+    database interactions, and clean URL routing.
+</p>
+
+<p>We plan to enhance the project with more features and improvements as we deepen our knowledge of Django and best practices.</p>
+
+<p>Feel free to reach out for questions or collaboration: <a href="mailto:info@example.com">wog20051221@gmail.com</a></p>
+
+<p><a href="{% url 'transaction' %}">← Back to Home</a></p>
+
+{% endblock %}
